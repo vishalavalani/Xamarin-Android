@@ -1,0 +1,2 @@
+D:\Projects\Test Apps\Xamarin\Naivedyam\Naivedyam\Naivedyam\Naivedyam.WinPhone\Naivedyam.WinPhone.csproj;neutral
+D:\Projects\Test Apps\Xamarin\Naivedyam\Naivedyam\Naivedyam\Naivedyam\Naivedyam.csproj;neutral

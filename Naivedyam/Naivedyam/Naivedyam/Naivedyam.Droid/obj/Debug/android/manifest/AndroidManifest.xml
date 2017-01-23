@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.alept.naivedyam" android:versionCode="1" android:versionName="1.0">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="15" />
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+  <uses-permission android:name="com.alept.naivedyam.permission.MAPS_RECEIVE" />
+  <permission android:name="com.alept.naivedyam.permission.MAPS_RECEIVE" />
+  android:protectionlevel="signature" /&gt;
+
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /><application android:label="Naivedyam" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true"><meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAEX_WjKBdzxK_Sjck6RVy7oIRrcWWAJAE" /><meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" /><meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" /><activity android:label="About Naivedyam" android:name="md5a9553758071e76dc0a0fd3596da34bdd.AboutActivity" /><activity android:label="Find Naivedyam" android:name="md5a9553758071e76dc0a0fd3596da34bdd.GoToStoreActivity" /><activity android:icon="@drawable/icon" android:label="Naivedyam" android:name="md5a9553758071e76dc0a0fd3596da34bdd.MainActivity" /><activity android:label="MenuItemDetailActivity" android:name="md5a9553758071e76dc0a0fd3596da34bdd.MenuItemDetailActivity" /><activity android:label="Place Order" android:name="md5a9553758071e76dc0a0fd3596da34bdd.OrderActivity" /><activity android:noHistory="true" android:theme="@style/MyTheme.Splash" android:name="md5a9553758071e76dc0a0fd3596da34bdd.SplashActivity"><intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter></activity><activity android:label="Take Picture" android:name="md5a9553758071e76dc0a0fd3596da34bdd.TakePicActivity" /><activity android:label="View Cart" android:name="md5a9553758071e76dc0a0fd3596da34bdd.ViewCartActivity" /><activity android:label="ActivityBase" android:name="md506dbe7a3f83c801bcc4ad038a23eacba.ActivityBase" /><provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.alept.naivedyam.mono.MonoRuntimeProvider.__mono_init__" /><!--suppress ExportedReceiver--><receiver android:name="mono.android.Seppuku"><intent-filter><action android:name="mono.android.intent.action.SEPPUKU" /><category android:name="mono.android.intent.category.SEPPUKU.com.alept.naivedyam" /></intent-filter></receiver></application></manifest>

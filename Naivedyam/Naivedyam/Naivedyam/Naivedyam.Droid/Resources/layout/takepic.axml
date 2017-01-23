@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView4">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="25px"
+        android:padding="10dp"
+        android:minHeight="25px">
+        <TextView
+            android:text="Take a picture at Naivedyam!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+        <ImageView
+            android:src="@drawable/placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/imageViewPicture"
+            android:adjustViewBounds="true" />
+        <Button
+            android:text="Launch Camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLaunchCamera" />
+        <Button
+            android:text="Submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSubmitPicture" />
+    </LinearLayout>
+</ScrollView>

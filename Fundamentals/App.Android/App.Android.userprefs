@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{B11FF46D-7EA8-4CD0-8A9C-82D532C8C2FE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UserInterface/AutoCompleteActivity.cs">
+    <Files>
+      <File FileName="UserInterface/AutoCompleteActivity.cs" Line="61" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="App.Android" expanded="True">
+            <Node name="App.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="values-fr" expanded="True" />
+              </Node>
+              <Node name="UserInterface" expanded="True">
+                <Node name="AutoCompleteActivity.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.App.Android PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
+</Properties>

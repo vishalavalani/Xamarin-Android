@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView5">
+  <RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:src="@drawable/naivedyamlogo"
+        android:background="@color/splash_background" />
+    <Button
+        android:layout_below="@id/imageView1"
+        android:text="Place Your Order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPlaceOrder"
+        android:layout_marginTop="20dp" />
+    <Button
+      android:layout_below="@id/btnPlaceOrder"
+        android:text="View Your Cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnViewCart" />
+    <Button
+      android:layout_below="@id/btnViewCart"
+        android:text="Take a Pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTakePic" />
+    <Button
+      android:layout_below="@id/btnTakePic"
+        android:text="Go to Naivedyam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGoToNaivedyam" />
+    <Button
+      android:layout_below="@id/btnGoToNaivedyam"
+        android:text="About Naivedyam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAboutNaivedyam" />
+  </RelativeLayout>
+</ScrollView>

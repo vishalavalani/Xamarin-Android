@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer"
+    android:layout_width="264dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="#efefef"
+    android:choiceMode="singleChoice"
+    android:numColumns="1"
+    android:paddingLeft="2dp"
+    android:gravity="fill_horizontal"
+    android:scrollbarStyle="outsideInset"
+    android:scrollbars="none" />
