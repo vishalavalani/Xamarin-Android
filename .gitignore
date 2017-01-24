@@ -1,11 +1,23 @@
 
-Fundamentals/App.Android/.vs/App.Android/v14/.suo
+Fundamentals/Fundamentals/.vs/App.Android/v14/.suo
 
-Fundamentals/App.Android/bin/
+Fundamentals/Fundamentals/Fundamentals.Droid/bin/
 
-Fundamentals/App.Android/obj/
+Fundamentals/Fundamentals/Fundamentals.Droid/obj/
 
-Fundamentals/App.Android/packages/
+Fundamentals/Fundamentals/Fundamentals.Droid/packages/
+
+Fundamentals/Fundamentals/Fundamentals.iOS/bin/
+
+Fundamentals/Fundamentals/Fundamentals.iOS/obj/
+
+Fundamentals/Fundamentals/Fundamentals.iOS/packages/
+
+Fundamentals/Fundamentals/Fundamentals.WinPhone/bin/
+
+Fundamentals/Fundamentals/Fundamentals.WinPhone/obj/
+
+Fundamentals/Fundamentals/Fundamentals.WinPhone/packages/
 
 Naivedyam/Naivedyam/Components/
 
