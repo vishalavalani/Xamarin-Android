@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{06F06D67-88CD-4E0C-A45D-103C98961B94}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fundamentals/Fundamentals.Droid/MainActivity.cs">
     <Files>
-      <File FileName="Fundamentals/Fundamentals.Droid/MainActivity.cs" Line="74" Column="59" />
+      <File FileName="Fundamentals/Fundamentals.Droid/MainActivity.cs" Line="52" Column="4" />
       <File FileName="Fundamentals/Fundamentals.Droid/OrientationActivity.cs" Line="22" Column="48" />
       <File FileName="Fundamentals/Fundamentals.Droid/LanguageActivity.cs" Line="26" Column="3" />
     </Files>
@@ -9,12 +9,8 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Fundamentals" expanded="True">
-            <Node name="Fundamentals.Droid" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="layout" expanded="True">
-                  <Node name="Language.axml" selected="True" />
-                </Node>
-              </Node>
+            <Node name="Fundamentals.Droid" expanded="True" selected="True">
+              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>
