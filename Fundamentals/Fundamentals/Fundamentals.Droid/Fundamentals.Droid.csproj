@@ -58,6 +58,10 @@
     <Compile Include="LanguageActivity.cs" />
     <Compile Include="UserInterface\RelativeLayoutActivity.cs" />
     <Compile Include="UserInterface\TableLayoutActivity.cs" />
+    <Compile Include="UserInterface\SimpleListViewActivity.cs" />
+    <Compile Include="UserInterface\ListViewCustomActivity.cs" />
+    <Compile Include="Adapters\ColorAdapter.cs" />
+    <Compile Include="UserInterface\FormsDemoActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -104,6 +108,9 @@
     <AndroidResource Include="Resources\layout\tablelayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\listviewmain.axml" />
+    <AndroidResource Include="Resources\layout\listviewdemo.axml" />
+    <AndroidResource Include="Resources\layout\formelements.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
